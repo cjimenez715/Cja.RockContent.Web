@@ -1,1 +1,1 @@
-Execute: npm install
+Execute: Just execute index.html
