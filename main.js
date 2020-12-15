@@ -28,7 +28,7 @@ const renderApp = () => {
     var btn = document.getElementById('btnClick');
     btn.addEventListener('click', () => {
         fetch('https://localhost:44348/api/post-like', {
-            method: 'POST',
+            method: 'PUT',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
